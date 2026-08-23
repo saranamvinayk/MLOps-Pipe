@@ -11,4 +11,6 @@ langchain-huggingface
 sentence-transformers
 transformers
 torch
-accelerate
+acceleraterank_bm25
+langchain
+langchain-classic
