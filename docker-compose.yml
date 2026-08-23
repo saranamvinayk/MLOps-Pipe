@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   # 1. PostgreSQL (Backend Store for MLflow)
   db:
@@ -71,7 +69,7 @@ services:
     networks:
       - ml-network
 
-  # 5. FastAPI Inference Service (Your Day 3/5 App)
+  # 5. FastAPI Inference Service
   api:
     build:
       context: .
