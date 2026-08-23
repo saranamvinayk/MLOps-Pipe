@@ -42,6 +42,6 @@ jobs:
         docker build -t california-housing-api:latest .
     
     - name: Verify Docker Compose Build
-          run: |
-            # Test that all custom Dockerfiles in the compose stack build successfully
-            docker compose build
+      run: |
+        # Test that all custom Dockerfiles in the compose stack build successfully
+        docker compose build
