@@ -5,3 +5,10 @@ fastapi
 uvicorn
 pydantic
 joblib
+chromadb
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+transformers
+torch
+accelerate
